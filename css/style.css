@@ -1,0 +1,120 @@
+/*-- import starts --*/
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+/*-- import ends --*/
+
+:root{
+    --azul: #2E5559;
+    --mostarda: #D98E04;
+    --laranja: #BF5B04;
+    --vermelho-vivo: #D92B04;
+    --vermelho-escuro: #A61103;
+}
+
+body{
+    background-color: var(--azul);
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+header{
+    padding: 1.3em;
+    background-color: var(--laranja); 
+    font-family: 'Sedgwick Ave', cursive;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .logo, header a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 22px;
+}
+
+.logo-conteiner{
+    margin-left: 30px;
+}
+
+.menu-bar{
+    padding: 20px;
+}
+
+.menu-bar a{
+    padding-left: 5px;
+    margin-right: 15px;
+}
+
+.menu-bar i{
+    padding-right: 10px;
+    margin-right: 6px;
+}
+
+header i:hover{
+    transform: rotate(180deg);
+}
+
+header a:hover, .active{
+    background-color: var(--mostarda);
+    border-radius: 25%;
+}
+
+.menu{
+    font-size: 20px;
+}
+
+.banner h2{
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+ .receitas{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
+    border-radius: 5px;
+}
+
+.cartao{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    width: calc(25% - 5rem);
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    background-color: var(--laranja);
+    font-family: 'Dancing Script', cursive;
+}
+
+.cartao img{
+    margin: 2.5px;
+}
+
+.cartao h4, .cartao p{
+    margin: 3px 0 3px 5px;
+    padding-left: 4px;
+    color: #fefefe;
+    font-family: 'Dancing Script', cursive;
+}
+
+.cartao button{
+    background-color: var(--mostarda);
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin: 5px auto 2px 10px;
+    align-items: center;
+    color: white;
+    border: none;
+}
+
+.cartao button:hover{
+    background-color: var(--vermelho-escuro);
+    cursor: pointer;
+}
+

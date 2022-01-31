@@ -1,0 +1,98 @@
+/*-- import starts --*/
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+/*-- import ends --*/
+
+.menu{
+    font-size: 20px;
+}
+
+.ingre{
+    margin: 5rem;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    border: 1px dotted #D98E04;
+}
+
+.ingre i{
+    padding-right: 10px;
+}
+
+.ingre h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-top: 2.6rem;
+    text-align: center;
+}
+
+ul{
+    margin: 2.5rem;
+}
+
+li{
+    margin-left: 2rem;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+h4{
+    background-color: var(--mostarda);
+    margin-top: 2rem;
+    padding: 5px 1rem;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.recheios{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modo{
+    margin: 0 5rem 0 5rem;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    border: 1px dotted #D98E04;
+}
+
+.modo i{
+    padding-right: 10px;
+}
+
+.modo h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-top: 2.6rem;
+    text-align: center;
+}
+
+.preparo h4{
+    text-align: center;
+    margin: 1rem 1.5rem;
+}
+
+.preparo p{
+    margin: 2.5rem;
+    font-size: 20px;
+}
+
+.preparo .prefixo{
+    font-size: 20px;
+}
+
+strong{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin: 2rem 2rem 1rem 2rem;
+    padding-top: 1.5rem;
+}
+

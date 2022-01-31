@@ -118,3 +118,53 @@ header a:hover, .active{
     cursor: pointer;
 }
 
+#about, #contate{
+    border-top: 2px dotted #D98E04;
+    margin: 2rem;
+}
+
+#about h3, #contate h3{
+    text-align: center;
+    font-size: 50px;
+    margin: 2.5rem;
+    color: white;
+    background-color: #D98E04;
+    border-radius: 5px;
+}
+
+.subtitle{
+    margin: 2.5rem;
+    color: white;
+    font-size: 18px;
+}
+
+.dados{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+#contate p{
+    color: white;
+    font-size: 20px;
+    margin-left: 2rem;
+}
+
+#contate a{
+    color: white;
+    text-decoration: none;
+}
+
+#contate a:hover{
+    text-decoration: underline;
+    transition: .5s linear;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin: 2rem 2rem 1rem 2rem;
+    padding-top: 1.5rem;
+}

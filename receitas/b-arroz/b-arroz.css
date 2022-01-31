@@ -3,70 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 /*-- import ends --*/
 
-:root{
-    --azul: #2E5559;
-    --mostarda: #D98E04;
-    --laranja: #BF5B04;
-    --vermelho-vivo: #D92B04;
-    --vermelho-escuro: #A61103;
-}
-
-body{
-    background-color: var(--azul);
-    text-decoration: none;
-    transition: all .2s linear;
-}
-
-header{
-    padding: 1.3em;
-    background-color: var(--laranja); 
-    font-family: 'Sedgwick Ave', cursive;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-header .logo, header a{
-    color: white;
-    text-decoration: none;
-}
-
-.logo{
-    font-size: 22px;
-}
-
-.logo-conteiner{
-    margin-left: 30px;
-}
-
-.menu-bar{
-    padding: 20px;
-}
-
-.menu-bar a{
-    padding-left: 5px;
-    margin-right: 15px;
-}
-
-.menu-bar i{
-    padding-right: 10px;
-    margin-right: 6px;
-}
-
-header i:hover{
-    transform: rotate(180deg);
-}
-
-header a:hover, .active{
-    background-color: var(--mostarda);
-    border-radius: 25%;
-}
-
 .menu{
     font-size: 20px;
 }
 
 .banner{
-    background: url("https://s2.glbimg.com/D7fBP2k7f0cRrJNuT7fSx4eml1g=/0x0:495x250/984x0/smart/filters:strip_icc()/s.glbimg.com/po/rc/media/2012/10/16/20_43_13_629_receita_esfiha_aberta.jpg");
+    background: url("https://img.cybercook.com.br/receitas/632/bolinho-de-arroz-de-forno-1.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -169,5 +111,12 @@ h4{
 strong{
     font-weight: bold;
     text-decoration: underline;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin: 2rem 2rem 1rem 2rem;
+    padding-top: 1.5rem;
 }
 
